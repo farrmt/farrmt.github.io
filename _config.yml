@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Matthew Farr Personal Page"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page personal website"
+title:       "Matthew Farr"
+keywords:    "NA"
+description: "Matthew Farr personal website"
 source_link: "https://farrmt.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon"
