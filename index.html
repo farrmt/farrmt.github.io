@@ -17,6 +17,13 @@
 <body>
   <div id="main">
 
+    <div id="header" class="section text-white">
+      <div class="container">
+        {% capture headtext %} {% include header.md %} {% endcapture %}
+        {{ headtext | markdownify }}
+      </div>
+    </div>
+
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
