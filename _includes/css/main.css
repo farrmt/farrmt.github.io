@@ -120,7 +120,7 @@ nav {
   width:100%;
   position:fixed;
   z-index:100;
-  top:10px;
+  top:40px;
   left:0;
   background:#2e2e2e;
 }
@@ -189,13 +189,14 @@ nav ul li:hover, nav ul li.active {
 #header {
   position: fixed;
   width: 100%;
+  padding: 20px 0;
+  min-height: 0;
   text-align:center;
   background-color:#2e2e2e;
   background-image:none;
-  border-width:0px;
   z-index: 100;
 }
-#header .container p { font-size:30px; margin:0px;}
+#header .container p { font-size:30px; margin:-6px;}
 
 #footer {
   padding: 8px 0;
