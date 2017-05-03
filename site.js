@@ -19,7 +19,8 @@ $.extend($.easing,
 
     $.fn.navScroller = function(options) {
         settings = $.extend({
-            scrollToOffset: 170,
+            scrollToOffset: 100,
+            //scrollToOffset: 170,
             scrollSpeed: 800,
             activateParentNode: true,
         }, options );
@@ -33,6 +34,7 @@ $.extend($.easing,
             activateNav(navID);
             populateDestinations(); //recalculate these!
         	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
+          //$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
                 settings.scrollSpeed, "easeInOutExpo", function(){
                     disableScrollFn = false;
                 }
@@ -86,10 +88,10 @@ $(document).ready(function (){
         		event.preventDefault();
                 var target = $(event.target).closest("a");
                 var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+              //$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+              $('html,body').animate({scrollTop: targetHight - 100}, 800, "easeInOutExpo");
             });
         }
 	});
 
 });
-
