@@ -183,6 +183,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 .section:nth-of-type(2) {
+    position:relative;
+    display:block;
+    width:100%;
     padding-top: 140px;
     background:url(img/Bg_about.JPG);
     background-repeat: no-repeat;
@@ -193,7 +196,7 @@ nav ul li:hover, nav ul li.active {
     background-size: cover;
 }
 
-/*#header {
+#header {
   position: fixed;
   top: 0;
   left: 0;
@@ -204,7 +207,7 @@ nav ul li:hover, nav ul li.active {
   background-image:none;
   z-index: 100;
 }
-#header .container p { font-size:30px; margin:-6px; } */
+#header .container p { font-size:30px; margin:-6px; }
 
 #footer {
   padding: 8px 0;
