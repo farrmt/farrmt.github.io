@@ -199,6 +199,7 @@ nav ul li:hover, nav ul li.active {
   left: 0;
   padding: 20px 0;
   min-height: 0;
+  width: 100%;
   text-align:center;
   background-color:#2e2e2e;
   background-image:none;
