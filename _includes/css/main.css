@@ -67,15 +67,9 @@ hr {
 .container { word-wrap: break-word; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
-/*.right, .container .right { text-align: right; } */
+.right, .container .right { text-align: right; }
 
-.container h1, .container h2, .container h3, .container h4 {
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 0 4%;
-}
-
-/*.container h1 {
+.container h1 {
   margin-bottom: 20px;
   text-align: center;
   padding: 0 4%;
@@ -204,6 +198,7 @@ nav ul li:hover, nav ul li.active {
 
 #header {
   position: fixed;
+  display: inline-block;
   top: 0;
   left: 0;
   padding: 20px 0;
