@@ -311,6 +311,9 @@ nav ul li:hover, nav ul li.active {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
+.picture {
+  border: 2px solid black;
+}
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
