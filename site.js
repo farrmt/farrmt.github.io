@@ -19,7 +19,7 @@ $.extend($.easing,
 
     $.fn.navScroller = function(options) {
         settings = $.extend({
-            scrollToOffset: 120,
+            scrollToOffset: 100,
             //scrollToOffset: 170,
             scrollSpeed: 800,
             activateParentNode: true,
@@ -50,7 +50,7 @@ $.extend($.easing,
             var page_height = $(window).height();
             var pos = $(this).scrollTop();
             for (i in sections) {
-                if ((pos + settings.scrollToOffset >= sections[i]) && sections[i] < pos + page_height){
+                if ((pos + settings.scrollToOffset + 100 >= sections[i]) && sections[i] < pos + page_height){
                     activateNav(i);
                 }
             }
