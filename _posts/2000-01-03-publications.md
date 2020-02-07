@@ -1,7 +1,7 @@
 ---
 title: "Publications"
-bg: grey
-color: white
+bg: white
+color: black
 ---
 # Publications
 #### Below is a list of my publications. Click on the GitHub button <img src="img/GitHub.png" height="25" width="25"> to see available code. Click on the Blogdown button <img src="img/Blogdown.png" height="25" width="25"> to read a blogpost about the associated project. Click on the Altmetic badge to see social/online media coverage.
