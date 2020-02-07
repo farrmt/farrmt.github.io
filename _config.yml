@@ -20,7 +20,7 @@ description: "Matthew Farr personal website"
 source_link: "https://farrmt.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: "UA-158031065-1"
 
 
 
