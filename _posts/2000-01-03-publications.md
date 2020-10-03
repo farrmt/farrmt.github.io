@@ -4,7 +4,7 @@ bg: white
 color: black
 ---
 # Publications
-#### Below is a list of my publications. See <a href="/CV.pdf" class="buttonimg"><img src="img/CV.png" style="margin-right:10px; margin-left:10px;"></a> for publications in review. Click on the GitHub button <img src="img/GitHub.png" height="25" width="25"> to see available code. Click on the Blogdown button <img src="img/Blogdown.png" height="25" width="25"> to read a blogpost about the associated project. Click on the Altmetic badge to see social/online media coverage.
+#### Below is a list of my publications. See <a href="/CV.pdf" class="buttonimg"><img src="img/CV.png" height="25" width="25"></a> for publications in review. Click on the GitHub button <img src="img/GitHub.png" height="25" width="25"> to see available code. Click on the Blogdown button <img src="img/Blogdown.png" height="25" width="25"> to read a blogpost about the associated project. Click on the Altmetic badge to see social/online media coverage.
 
 [**Farr, M.T.**, Green, D.S., Holekamp, K.E., and Zipkin, E.F. (In Press) Integrating distance sampling and presence-only data to estimate species abundance. *Ecology*](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3204)  <a href="https://github.com/farrmt/IDM" class="buttonimg"><img src="img/GitHub.png" height="25" width="25"></a>  <a href="https://farrmt.github.io/Projects/posts/isdm/" class="buttonimg"><img src="img/Blogdown.png" height="25" width="25"></a>
 
